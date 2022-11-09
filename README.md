@@ -1,0 +1,1 @@
+# backstage-demo-k8-sample-component
