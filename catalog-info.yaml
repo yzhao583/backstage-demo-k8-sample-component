@@ -2,13 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: my-kubernetes-component
-    github.com/project-slug: lokeshrangineni/backstage-demo-k8-sample-component
+    backstage.io/kubernetes-id: my-kubernetes-component-new
+    github.com/project-slug: yzhao583/backstage-demo-k8-sample-component
     github.com/project-readme-path: README.md
-    backstage.io/view-url: https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
-    backstage.io/edit-url: https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
-    backstage.io/source-location: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component
-    tektonci/build-namespace: loki-backstage
+    backstage.io/view-url: https://github.com/yzhao583/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
+    backstage.io/edit-url: https://github.com/yzhao583/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/yzhao583/backstage-demo-k8-sample-component
     argocd/app-name: guestbook
     backstage.io/techdocs-ref: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/README.md
   name: my-kubernetes-component
